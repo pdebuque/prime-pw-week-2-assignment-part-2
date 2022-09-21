@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// This code sets the name variable to Dane, then checks the name.
+// If the name is Mary, the console says 'Hi, Mary!'. In all other values for name, the console says 'How do you do?'
+// In this case, we should see the console say 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We define two variables, secret and code. code has the value 123, and secret is yet unassigned.
+// Two for loops: the first checks code's value - if it is exactly 123, it stores secret's value as super, then multiplies code's value by two.
+// The second loop then checks if code is greater than 250 - if it is, it stores secret's value as duper.
+// Finally, the console tells us secret's value. In this case, it would be super.
 
 //CODE
 /*
@@ -70,9 +70,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// The first three lines store three pieces of information (presumably about a singler person): student status, age, and zip.
+// Then based on the values stored, the console logs a single response.
+// In this case, the console will log 'Welcome to Prime!'
 //
 
 //CODE
@@ -130,9 +130,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+FIX - variables stored incorrectly. Should be
+let colorOne = 'blue';
+let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+FIX - result should set both colors to purple.
+if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
 
 if (mix === true) {
   colorOne = 'purple';
@@ -147,6 +157,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+FIX - using an or statement, not and.
+if (temp > 39 && time >=4) {...}
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +172,14 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+FIX - wrong outputs. Also, confusing way to state the condition.
+if(age>=minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
+
 
 if(minAge <= age) {
   console.log('no entry');
