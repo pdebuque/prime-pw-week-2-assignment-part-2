@@ -46,9 +46,9 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We define two variables, secret and code. code has the value 123, and secret is yet unassigned.
-// Two for loops: the first checks code's value - if it is exactly 123, it stores secret's value as super, then multiplies code's value by two.
-// The second loop then checks if code is greater than 250 - if it is, it stores secret's value as duper.
-// Finally, the console tells us secret's value. In this case, it would be super.
+// Two conditionals: the first checks code's value - if it is exactly 123, it stores secret's value as super, then multiplies code's value by two.
+// The second conditional checks if code is greater than 250 - if it is, it stores secret's value as duper.
+// Finally, the console tells us secret's value. In this case, the console should say super.
 
 //CODE
 /*
@@ -70,8 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// The first three lines store three pieces of information (presumably about a singler person): student status, age, and zip.
+// The first three lines store three pieces of information (presumably about a single person): student status, age, and zip.
 // Then based on the values stored, the console logs a single response.
+// If the person is both a student and has a zip code value less than 80000, the console logs 'You're a sudent on the West Coast!'
+// If that is not the case and the student's age is <30, the console logs 'what are your hobbies?'
+// If neither of those are true but the person is a student, the console logs 'Welcome to Prime!'
+// In all other cases, the console logs "How about the weather?"
 // In this case, the console will log 'Welcome to Prime!'
 //
 
@@ -157,7 +161,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-FIX - using an or statement, not and.
+FIX - original used an or statement, not and.
 if (temp > 39 && time >=4) {...}
 
 if (temp > 39 || time >= 4) {
@@ -179,7 +183,6 @@ if(age>=minAge) {
 } else {
   console.log('no entry');
 }
-
 
 if(minAge <= age) {
   console.log('no entry');
